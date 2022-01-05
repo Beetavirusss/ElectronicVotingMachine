@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UIController">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: cream;">
+         <children>
+            <Button layoutX="-16.0" layoutY="205.0" mnemonicParsing="false" prefHeight="416.0" prefWidth="1017.0" style="-fx-background-color: black;" text="Kindly Press on the Cast a Vote Button and enter your details, select a candidate and cast your vote." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Constantia Bold" size="29.0" />
+               </font>
+            </Button>
+            <TextField alignment="CENTER" blendMode="DARKEN" depthTest="DISABLE" layoutX="26.0" layoutY="24.0" prefHeight="104.0" prefWidth="948.0" style="-fx-border-color: white;" text="HOW TO VOTE">
+               <font>
+                  <Font name="Constantia Bold" size="50.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

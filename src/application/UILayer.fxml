@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UIController">
+   <top>
+      <Pane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: cream;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="350.0" layoutY="169.0" mnemonicParsing="false" onAction="#InfoHandle" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: navy;" text="How to Vote" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Constantia Bold" size="29.0" />
+               </font>
+            </Button>
+            <Button layoutX="350.0" layoutY="251.0" mnemonicParsing="false" onAction="#VoterHandle" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: crimson;" text="Cast a Vote" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Constantia Bold" size="29.0" />
+               </font>
+            </Button>
+            <Button layoutX="350.0" layoutY="332.0" mnemonicParsing="false" onAction="#CandHandle" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: green;" text="Add Candidate" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Constantia Bold" size="29.0" />
+               </font>
+            </Button>
+            <Button layoutX="350.0" layoutY="411.0" mnemonicParsing="false" onAction="#PartyHandle" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: indigo;" text="Add Party" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Constantia Bold" size="29.0" />
+               </font>
+            </Button>
+            <Button layoutX="350.0" layoutY="490.0" mnemonicParsing="false" onAction="#ResultsHandle" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: teal;" text="Results" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Constantia Bold" size="29.0" />
+               </font>
+            </Button>
+            <Button layoutX="350.0" layoutY="571.0" mnemonicParsing="false" onAction="#ExitHandle" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: black;" text="Exit" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Constantia Bold" size="29.0" />
+               </font>
+            </Button>
+            <TextField alignment="CENTER" blendMode="DARKEN" depthTest="DISABLE" layoutX="26.0" layoutY="24.0" prefHeight="104.0" prefWidth="948.0" style="-fx-border-color: white;" text="Welcome to Electronic Voting System">
+               <font>
+                  <Font name="Constantia Bold" size="50.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+   </top>
+</BorderPane>
